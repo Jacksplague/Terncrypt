@@ -234,7 +234,7 @@ terncrypt encrypt \
 <p data-start="5499" data-end="5516">Install dev copy:</p>
 <pre class="overflow-visible!" data-start="5518" data-end="5546"><div class="contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>pip install -e .
 </span></span></code></div></div></pre>
-<p data-start="5548" data-end="5589">Run tests (if we build you a test suite):</p>
+<p data-start="5548" data-end="5589">Run tests:</p>
 <pre class="overflow-visible!" data-start="5591" data-end="5609"><div class="contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>pytest
 </span></span></code></div></div></pre>
 <hr data-start="5611" data-end="5614">
@@ -242,7 +242,7 @@ terncrypt encrypt \
 <p data-start="5630" data-end="5712">MIT License</p>
 <hr data-start="5714" data-end="5717">
 <h1 data-start="5719" data-end="5731">🙌 Credits</h1>
-<p data-start="5733" data-end="5778">Terncrypt was created as an exploration into:</p>
+<p data-start="5733" data-end="5778">Terncrypt was created by Jacksplague as an exploration into:</p>
 <ul data-start="5780" data-end="5965">
 <li data-start="5780" data-end="5811">
 <p data-start="5782" data-end="5811">balanced ternary arithmetic</p>
