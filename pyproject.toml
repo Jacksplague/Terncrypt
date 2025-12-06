@@ -30,11 +30,12 @@ terncrypt = "terncrypt.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/Jacksplague/Terncrypt/"
-Source = "https://github.com/Jacksplague/Terncrypt/source"
+Source = "https://github.com/Jacksplague/Terncrypt/"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/terncrypt", "README.md", "LICENSE"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/terncrypt"]
+
 
