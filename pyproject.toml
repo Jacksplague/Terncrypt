@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "terncrypt"
+version = "0.1.0"
+description = "Balanced-ternary AEAD cipher and CLI (CTR + CBC-MAC AEAD) implemented over balanced ternary."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Daniel C", email = "you@example.com" }
+]
+
+keywords = ["cryptography", "ternary", "balanced-ternary", "AEAD", "cipher"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Security :: Cryptography",
+]
+
+dependencies = []  # stdlib only right now
+
+# This defines the 'terncrypt' console command
+[project.scripts]
+terncrypt = "terncrypt.cli:main"
+
+[project.urls]
+Homepage = "https://example.com/terncrypt"
+Source = "https://example.com/terncrypt/source"
+
+[tool.hatch.build.targets.sdist]
+include = ["src/terncrypt", "README.md", "LICENSE"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/terncrypt"]
