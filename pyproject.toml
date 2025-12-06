@@ -29,11 +29,12 @@ dependencies = []  # stdlib only right now
 terncrypt = "terncrypt.cli:main"
 
 [project.urls]
-Homepage = "https://example.com/terncrypt"
-Source = "https://example.com/terncrypt/source"
+Homepage = "https://github.com/Jacksplague/Terncrypt/"
+Source = "https://github.com/Jacksplague/Terncrypt/source"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/terncrypt", "README.md", "LICENSE"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/terncrypt"]
+
